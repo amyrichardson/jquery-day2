@@ -1,0 +1,65 @@
+html, body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  margin-top: 0;
+  background-color: rgb(63, 94, 117);
+  padding: 10px;
+  border-bottom: 5px solid white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 28pt;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 10px;
+  min-width: 400px;
+}
+
+th {
+  border: 1px dashed grey;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(32, 32, 32, 0.76);
+  color: white;
+}
+
+td {
+  border: 1px dashed grey;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.deleteButton {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(63, 94, 117);
+  color: white;
+}
+
+.in-class {
+  background-color: rgba(167, 250, 132, 0.5);
+}
+
+.prework {
+  background-color: rgba(250, 242, 61, 0.5);
+}
+
+.graduated {
+  background-color: rgba(161, 161, 161, 0.5);
+}
